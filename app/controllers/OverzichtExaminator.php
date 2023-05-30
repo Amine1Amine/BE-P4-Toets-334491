@@ -13,7 +13,7 @@ class OverzichtExaminator extends BaseController
     {
         $result = $this->OverzichtExaminator->getOverzichtExaminator();
 
-        //var_dump($result);
+        var_dump($result);
 
         $rows = "";
         foreach ($result as $OverzichtExaminator) {
@@ -37,6 +37,6 @@ class OverzichtExaminator extends BaseController
             'rows' => $rows
         ];
 
-        $this->view('OverzichtExaminator/OverzichtExaminator', $data);
+        $this->view('Overzichtexaminator/OverzichtExaminator', $data);
     }
 }
