@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
 
     <link rel="stylesheet" href="<?= URLROOT; ?>/css/style.css">
-    <title>Overzicht voertuigen</title>
+    <title>Overzicht Examinator</title>
 </head>
 
 <body>
@@ -18,12 +18,12 @@
     <table>
         <thead>
 
-            <th>Kenteken</th>
-            <th>Type</th>
-            <th>Bouwjaar</th>
-            <th>Brandstof</th>
-            <th>Typevoertuigid</th>
+            <th>Naam Examinator</th>
+            <th>Datum Examen</th>
             <th>Rijbewijscategorie</th>
+            <th>Rijschool</th>
+            <th>Stad</th>
+            <th>Uitslag Examen</th>
         </thead>
         <tbody>
             <?= $data['rows']; ?>
