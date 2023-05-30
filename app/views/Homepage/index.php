@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +8,10 @@
     <link rel="stylesheet" href="<?= URLROOT; ?>/css/style.css">
     <title>Document</title>
 </head>
+
 <body>
     <h3><?= $data['title']; ?></h3>
-    <a href="<?= URLROOT; ?>/Instructeur/overzichtinstructeur">Instructeurs in dienst</a> 
+    <a href="<?= URLROOT; ?>/Overzichtexaminator/OverzichtExaminator">Overzicht Afgenomen Examens Examinatoren</a>
 </body>
+
 </html>

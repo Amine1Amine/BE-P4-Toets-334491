@@ -24,7 +24,6 @@
             <th>Brandstof</th>
             <th>Typevoertuigid</th>
             <th>Rijbewijscategorie</th>
-            <th>Toevoegen</th>
         </thead>
         <tbody>
             <?= $data['rows']; ?>

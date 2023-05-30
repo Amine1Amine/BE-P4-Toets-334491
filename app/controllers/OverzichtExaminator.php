@@ -13,22 +13,17 @@ class OverzichtExaminator extends BaseController
     {
         $result = $this->OverzichtExaminator->getOverzichtExaminator();
 
-        var_dump($result);
+        //var_dump($result);
 
         $rows = "";
         foreach ($result as $OverzichtExaminator) {
             $rows .= "<tr>
                         <td>$OverzichtExaminator->Voornaam</td>
-                        <td>$OverzichtExaminator->Tussenvoegsel</td>
-                        <td>$OverzichtExaminator->Achternaam</td>
-                        <td>$OverzichtExaminator->Mobiel</td>
-                        <td>$OverzichtExaminator->DatumInDienst</td>            
-                        <td>$OverzichtExaminator->AantalSterren</td>            
-                        <td>
-                            <a href='" . URLROOT . "/instructeur/overzichtvoertuigen/$OverzichtExaminator->Id'>
-                                <i class='bi bi-car-front'></i>
-                            </a>
-                        </td>            
+                        <td>$OverzichtExaminator->Datum</td>
+                        <td>$OverzichtExaminator->Rijbewijscategorie</td>
+                        <td>$OverzichtExaminator->Rijschool</td>
+                        <td>$OverzichtExaminator->Stad</td>            
+                        <td>$OverzichtExaminator->Uitslag</td>                       
                       </tr>";
         }
 
